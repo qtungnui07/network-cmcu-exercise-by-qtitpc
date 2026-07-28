@@ -304,11 +304,5 @@ ping
 ├── README.md
 ├── packet-tracer/
 │   └── scitech-enterprise-network.pkt
-├── configs/
-│   ├── CORE-SW01.txt
-│   ├── FW-ASA01.txt
-│   ├── EDGE-R1.txt
-│   ├── ISP-R1.txt
-│   └── access-switches/
 └── screenshots/
 ```

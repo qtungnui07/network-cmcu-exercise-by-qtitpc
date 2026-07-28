@@ -1,2 +1,0 @@
-! Cấu hình ISP-R1
-! Sao chép running-config từ thiết bị vào tệp này khi bàn giao.

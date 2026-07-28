@@ -16,6 +16,7 @@ Mô hình mạng doanh nghiệp dành cho khoảng **100–120 người dùng**,
 - [DHCP](#dhcp)
 - [Wi-Fi](#wi-fi)
 - [Các khu vực và phòng ban](#các-khu-vực-và-phòng-ban)
+- [Tài liệu riêng theo khu vực](#tài-liệu-riêng-theo-khu-vực)
 - [NAT/PAT và ICMP inspection](#natpat-và-icmp-inspection)
 - [Static route](#static-route)
 - [Lệnh kiểm tra](#lệnh-kiểm-tra)
@@ -193,6 +194,24 @@ DNS dùng chung: `10.10.90.10`.
 | NOC | `SW-NOC-01` `10.10.100.11` | — |
 | Board | `SW-BOARD-01` `10.10.100.12` | — |
 
+## Tài liệu riêng theo khu vực
+
+Mỗi khu vực có một README riêng để thuận tiện cập nhật:
+
+| Khu vực | Tài liệu |
+| --- | --- |
+| NOC | [rooms/noc/README.md](./rooms/noc/README.md) |
+| Board/Project | [rooms/board-project/README.md](./rooms/board-project/README.md) |
+| Data Center | [rooms/data-center/README.md](./rooms/data-center/README.md) |
+| Wi-Fi | [rooms/wifi/README.md](./rooms/wifi/README.md) |
+| R&D | [rooms/rd/README.md](./rooms/rd/README.md) |
+| Lab | [rooms/lab/README.md](./rooms/lab/README.md) |
+| DEV | [rooms/dev/README.md](./rooms/dev/README.md) |
+| IT | [rooms/it/README.md](./rooms/it/README.md) |
+| Hành chính/Nhân sự/Kế toán | [rooms/hr-accounting/README.md](./rooms/hr-accounting/README.md) |
+| Kinh doanh/Chuyển giao | [rooms/sales/README.md](./rooms/sales/README.md) |
+| CCTV/IoT | [rooms/cctv-iot/README.md](./rooms/cctv-iot/README.md) |
+
 ## NAT/PAT và ICMP inspection
 
 ### NAT/PAT trên FW-ASA01
@@ -304,5 +323,17 @@ ping
 ├── README.md
 ├── packet-tracer/
 │   └── scitech-enterprise-network.pkt
+├── rooms/
+│   ├── board-project/
+│   ├── cctv-iot/
+│   ├── data-center/
+│   ├── dev/
+│   ├── hr-accounting/
+│   ├── it/
+│   ├── lab/
+│   ├── noc/
+│   ├── rd/
+│   ├── sales/
+│   └── wifi/
 └── screenshots/
 ```

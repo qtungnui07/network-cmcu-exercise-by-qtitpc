@@ -1,4 +1,5 @@
 # SCITECH Enterprise Network — Cisco Packet Tracer
+Check this ---> [Notion](https://app.notion.com/p/qtitpc/Thi-t-l-p-m-ng-bi-n-ISP-R1-EDGE-R1-v-FW-ASA01-3aae07453fa9816ba5c0f6ebf7ef10e7?source=copy_link)
 
 Mô hình mạng doanh nghiệp dành cho khoảng **100–120 người dùng**, được xây dựng trên Cisco Packet Tracer. Hệ thống gồm ISP, EDGE Router, ASA Firewall, Core Layer 3, Data Center, Wi-Fi, CCTV/IoT, Voice và các phòng ban. Toàn bộ kết nối đã được kiểm tra end-to-end thành công.
 
